@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="65136" started-at="2018-07-17T11:37:26Z" finished-at="2018-07-17T11:38:31Z">
+    <groups>
+      <group name="smoke">
+        <method signature="TestGoogle.testGoogle(java.lang.String)[pri:1, instance:com.framework.tests.TestGoogle@6153ddda]" name="testGoogle" class="com.framework.tests.TestGoogle"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Google" duration-ms="65136" started-at="2018-07-17T11:37:26Z" finished-at="2018-07-17T11:38:31Z">
+      <class name="com.framework.tests.TestGoogle">
+        <test-method status="PASS" signature="testGoogle(java.lang.String)[pri:1, instance:com.framework.tests.TestGoogle@6153ddda]" name="testGoogle" duration-ms="23119" started-at="2018-07-17T17:07:28Z" finished-at="2018-07-17T17:07:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogle -->
+        <test-method status="PASS" signature="testGoogle(java.lang.String)[pri:1, instance:com.framework.tests.TestGoogle@6153ddda]" name="testGoogle" duration-ms="14581" started-at="2018-07-17T17:07:51Z" finished-at="2018-07-17T17:08:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Java]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogle -->
+        <test-method status="PASS" signature="testGoogle(java.lang.String)[pri:1, instance:com.framework.tests.TestGoogle@6153ddda]" name="testGoogle" duration-ms="12493" started-at="2018-07-17T17:08:06Z" finished-at="2018-07-17T17:08:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JavaScript]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogle -->
+        <test-method status="PASS" signature="testGoogle(java.lang.String)[pri:1, instance:com.framework.tests.TestGoogle@6153ddda]" name="testGoogle" duration-ms="12925" started-at="2018-07-17T17:08:18Z" finished-at="2018-07-17T17:08:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hadoop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogle -->
+      </class> <!-- com.framework.tests.TestGoogle -->
+    </test> <!-- Google -->
+  </suite> <!-- Suite1 -->
+</testng-results>

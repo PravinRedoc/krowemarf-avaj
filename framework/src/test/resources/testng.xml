@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- time-out="5000" -->
+<suite name="Suite1" parallel="false" thread-count="1" verbose="10">
+	<listeners>
+		<listener class-name="com.framework.lib.TestListener" />
+		<listener class-name="com.framework.lib.RetryListener" />
+		<listener class-name="com.framework.lib.DataTransformer" />
+
+	</listeners>
+	<test name="Google" preserve-order="true">
+		<groups>
+			<run>
+				<include name="smoke" />
+			</run>
+		</groups>
+		<classes>
+
+			<class name="com.framework.tests.TestGoogle" />
+
+		</classes>
+	</test>
+</suite>
